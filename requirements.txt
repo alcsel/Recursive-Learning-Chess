@@ -1,0 +1,11 @@
+# JAX and Flax power the network and the update step.
+jax>=0.4.26
+flax>=0.8
+optax>=0.2
+
+# The chess environment and the board representation used to talk UCI.
+pgx>=0.3
+chess>=1.10
+
+# Development dependency.
+pytest>=8.0
